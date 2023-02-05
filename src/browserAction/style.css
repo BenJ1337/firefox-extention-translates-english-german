@@ -1,0 +1,63 @@
+@font-face {
+  font-family: Roboto;
+  src: url('../assets/Roboto/Roboto-Medium.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#word-list {
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+#word-list tr td {
+  padding: 1px 5px;
+}
+
+button {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 2px;
+}
+
+button:hover {
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #222;
+    color: #eee;
+  }
+
+  button {
+    background: #ddd;
+    color: #222;
+  }
+
+  button:hover {
+    background: #fff;
+    color: #222;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background: #eee;
+    color: #222;
+  }
+
+  button {
+    background: #333;
+    color: #eee;
+  }
+
+  button:hover {
+    background: #000;
+    color: #eee;
+  }
+}

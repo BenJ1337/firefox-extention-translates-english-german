@@ -1,0 +1,10 @@
+{
+  "extensionName": {
+    "message": "TransInfo",
+    "description": "Translates word into english."
+  },
+  "btnResetWords": {
+    "message": "Reset dictionary",
+    "description": "Reset dictionary"
+  }
+}

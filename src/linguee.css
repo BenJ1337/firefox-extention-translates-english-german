@@ -1,0 +1,36 @@
+.ad_leftAndRight #mainlayout {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.example .tag_t,
+.example .tag_s {
+    width: 100%;
+}
+
+.example .tag_e {
+    padding: 2px 2px 2px 5px;
+    border-radius: 5px;
+    background: #eee;
+    max-width: 50%;
+}
+
+#maindiv {
+    max-width: 550px;
+    overflow-x: scroll;
+}
+
+#outer_div,
+.ad_leftAndRight #outer_div {
+    min-width: auto !important;
+}
+
+#mainlayout {
+    padding: 0 !important;
+}
+
+#banners_right,
+#banner_top {
+    display: none !important;
+}
+

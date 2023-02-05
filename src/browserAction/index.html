@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div style="width: 100%">
+      <label
+        ><input type="checkbox" name="checkbox" />
+        Übersetze bei Doppelklick
+      </label>
+    </div>
+    <div style="width: 100%; padding: 10px 0">
+      <button id="reset-list">Reset Words</button>
+      <button id="export-list">Export</button>
+    </div>
+    <hr />
+    <table id="word-list">
+      <tr>
+        <td>Wort</td>
+        <td>Anzahl</td>
+        <td>Erstmals</td>
+        <td>Letztmals</td>
+      </tr>
+    </table>
+    <script type="module" src="popupScript.mjs"></script>
+  </body>
+</html>

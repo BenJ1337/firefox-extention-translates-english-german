@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+  "name": "TransInfo",
+  "description": "TransInfo",
+  "version": "0.0.2",
+  "default_locale": "en",
+  "icons": {
+    "64": "icons/icon.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "TransInfo@Hacker",
+      "strict_min_version": "59.0"
+    }
+  },
+  "background": {
+    "page": "background.html"
+  },
+  "permissions": ["menus", "activeTab", "storage"],
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content_script.js"]
+    },
+    {
+      "matches": ["*://*.linguee.de/*"],
+      "css": ["linguee.css"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": {
+      "64": "icons/icon.png"
+    },
+    "default_popup": "browserAction/index.html",
+    "default_title": "Transinfo"
+  }
+}

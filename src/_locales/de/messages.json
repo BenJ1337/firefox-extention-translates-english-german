@@ -1,0 +1,10 @@
+{
+  "extensionName": {
+    "message": "TransInfo",
+    "description": "Übersetzt Wörter ins Englich."
+  },
+  "btnResetWords": {
+    "message": "Wörterbuch zurücksetzen",
+    "description": "Wörterbuch zurücksetzen"
+  }
+}
